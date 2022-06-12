@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from "react";
-import pgHeader from "../../assets/image/X2oObC4.png";
+import pgHeader from "../assets/image/X2oObC4.png";
 import moment from "moment";
 import {
   addTaskAPIAction,
@@ -8,7 +8,7 @@ import {
   doneTaskAPIAction,
   getLstTaskAPIAction,
   rejectTaskAPIAction,
-} from "../../redux/actions/ToDoListActions";
+} from "../redux/actions/ToDoListActions";
 import { useDispatch, useSelector } from "react-redux";
 
 export default function TodoList() {
